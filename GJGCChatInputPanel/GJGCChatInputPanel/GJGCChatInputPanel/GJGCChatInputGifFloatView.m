@@ -32,7 +32,7 @@
         self.bubbleBackView.image = [self bubbleImageWithPosition:position];
         
         self.gifImgView = [[FLAnimatedImageView alloc]init];
-        self.gifImgView.gjcf_size = (CGSize){120,120};
+        self.gifImgView.gjcf_size = (CGSize){100,100};
         self.gifImgView.gjcf_centerX = self.gjcf_width/2;
         self.gifImgView.gjcf_centerY = (self.gjcf_height - 10)/2;
         [self addSubview:self.gifImgView];
