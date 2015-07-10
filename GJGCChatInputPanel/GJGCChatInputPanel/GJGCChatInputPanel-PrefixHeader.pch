@@ -1,0 +1,33 @@
+//
+//  GJGCChatInputPanel-PrefixHeader.pch
+//  GJGCChatInputPanel
+//
+//  Created by ZYVincent on 15/7/10.
+//  Copyright (c) 2015年 ZYProSoft. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
+
+#import "GJCFUitils.h"
+
+#import "GJCFAudioManager.h"
+
+#import "GJGCChatInputPanelStyle.h"
+
+#import "GJCFCoreTextAttributedStringStyle.h"
+
+#import "GJCFCoreTextImageAttributedStringStyle.h"
+
+#import "GJCFCoreTextParagraphStyle.h"
+
+#endif
